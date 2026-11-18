@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/AceHealth/AceHealth-Community/discussions/categories/q-a
+    about: Get help using Ace and find answers from the community.
+  - name: Community conversations
+    url: https://github.com/AceHealth/AceHealth-Community/discussions
+    about: Share experiences, discuss ideas, and follow announcements.
+  - name: Report a security vulnerability privately
+    url: https://github.com/AceHealth/AceHealth-Community/security/advisories/new
+    about: Do not post security vulnerabilities or private data in public issues.

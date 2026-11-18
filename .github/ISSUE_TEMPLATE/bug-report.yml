@@ -1,0 +1,59 @@
+name: Report a bug
+description: Tell us about something that is not working in Ace.
+title: "[Bug]: "
+labels: ["type: bug", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Search existing issues first. This report is public: remove personal information from text and screenshots. For account-specific help, use private support in Ace."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open…
+2. Tap…
+3. See…"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Ace version and build
+      placeholder: "Version and build number, if available"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and operating system
+      placeholder: "iPhone model and iOS version; Apple Watch model and watchOS version if relevant"
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Installation channel
+      options: [App Store, TestFlight, Other / unsure]
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context or screenshots
+      description: Optional. Redact personal and health information before attaching anything.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I removed personal information, health records, and credentials from this report and attachments.
+          required: true

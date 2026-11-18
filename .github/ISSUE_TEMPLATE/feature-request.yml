@@ -1,0 +1,39 @@
+name: Suggest a feature
+description: Share a problem Ace could solve or an improvement you would like.
+title: "[Feature]: "
+labels: ["type: feature", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Search existing requests first and add a thumbs-up to an existing idea. Requests help shape the roadmap; they do not guarantee delivery. Everything here is public."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe what you are trying to do and what gets in the way. Avoid personal health details.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like Ace to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or current workaround
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional examples or screenshots with private information removed.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing requests and the roadmap.
+          required: true
+        - label: I removed private information from this request and attachments.
+          required: true
