@@ -1,0 +1,19 @@
+docs/RELEASE_TEMPLATE.md
+  s_b1b109924efa0a::t_9602f5bb0b9d4c 9-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5daa9b8a4133486af1cda3639a4d109d0e4c866a",
+  "prompts": {},
+  "sessions": {
+    "s_b1b109924efa0a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ef87-72a9-7d90-970c-4943b3d098af",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "rishabhrathod01 <rathod.rishabh@prophecy.io>"
+    }
+  }
+}
