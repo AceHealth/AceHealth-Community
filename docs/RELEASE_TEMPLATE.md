@@ -6,7 +6,8 @@ Copy the sections below, remove empty sections and instructions, and replace eve
 
 ---
 
-Released: YYYY-MM-DD  
+Released: YYYY-MM-DD
+
 Availability: platform, rollout, and minimum supported versions where relevant
 
 ## New
