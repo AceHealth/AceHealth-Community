@@ -1,0 +1,43 @@
+.github/DISCUSSION_TEMPLATE/q-a.yml
+  s_b1b109924efa0a::t_b8a326328609d0 1-16
+.github/ISSUE_TEMPLATE/bug-report.yml
+  s_b1b109924efa0a::t_1ec7439f8c750d 1-59
+.github/ISSUE_TEMPLATE/config.yml
+  s_b1b109924efa0a::t_8dc57655dbe978 1-11
+.github/ISSUE_TEMPLATE/feature-request.yml
+  s_b1b109924efa0a::t_44e1eef03b5b9e 1-39
+.github/pull_request_template.md
+  s_b1b109924efa0a::t_b6cd1db4b0be57 1-8
+CHANGELOG.md
+  s_b1b109924efa0a::t_64147173899719 1-9
+CODE_OF_CONDUCT.md
+  s_b1b109924efa0a::t_e3535655be6e3b 1-13
+CONTRIBUTING.md
+  s_b1b109924efa0a::t_e3b090d0475b95 1-13
+README.md
+  s_b1b109924efa0a::t_47f32e996d78e4 1-32
+ROADMAP.md
+  s_b1b109924efa0a::t_6838cade9cc7cc 1-16
+SECURITY.md
+  s_b1b109924efa0a::t_ec8ccde61763f3 1-9
+docs/MAINTAINERS.md
+  s_b1b109924efa0a::t_6222a4029c43c7 1-30
+docs/RELEASE_TEMPLATE.md
+  s_b1b109924efa0a::t_bc2629b41b82ea 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e801e1844a5950d0a1a703833c97b227994a2895",
+  "prompts": {},
+  "sessions": {
+    "s_b1b109924efa0a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ef87-72a9-7d90-970c-4943b3d098af",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "rishabhrathod01 <rathod.rishabh@prophecy.io>"
+    }
+  }
+}
