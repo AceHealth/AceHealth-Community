@@ -1,0 +1,23 @@
+README.md
+  s_b1b109924efa0a::t_f62a52578504e5 9,11
+ROADMAP.md
+  s_b1b109924efa0a::t_cee86404dcbfab 3,5
+docs/MAINTAINERS.md
+  s_b1b109924efa0a::t_a8f36ccc91dbe0 20,22,24,26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5c5035e7733c7269b6e49e9f82f56efb18ca2b30",
+  "prompts": {},
+  "sessions": {
+    "s_b1b109924efa0a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ef87-72a9-7d90-970c-4943b3d098af",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "rishabhrathod01 <rathod.rishabh@prophecy.io>"
+    }
+  }
+}
