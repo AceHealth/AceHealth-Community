@@ -6,8 +6,9 @@ This is the public place to follow updates, share feedback, and help shape Ace.
 
 | I want to… | Go here |
 | --- | --- |
+| Read guides and FAQs | [Ace Wiki](https://github.com/AceHealth/AceHealth-Community/wiki) |
 | See what changed | [Release notes](https://github.com/AceHealth/AceHealth-Community/releases) |
-| See what is being considered or built | [Roadmap](ROADMAP.md) |
+| See what is being considered or built | [Roadmap](https://github.com/AceHealth/AceHealth-Community/wiki/Roadmap) |
 | Report something broken | [Report a bug](https://github.com/AceHealth/AceHealth-Community/issues/new?template=bug-report.yml) |
 | Suggest an improvement | [Request a feature](https://github.com/AceHealth/AceHealth-Community/issues/new?template=feature-request.yml) |
 | Ask how something works | [Questions & answers](https://github.com/AceHealth/AceHealth-Community/discussions/categories/q-a) |

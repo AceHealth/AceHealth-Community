@@ -17,13 +17,13 @@ Q&A is for usage questions. Announcements is for team updates. General and Show 
 3. Review the draft, remove empty sections, and publish when the app release is available. Mark beta releases as pre-releases.
 4. Link the release from shipped issues and post an Announcements discussion if it warrants a separate conversation. Keep the release itself as the canonical notes.
 
-## Optional GitHub Projects board
+## Maintain the wiki
 
-The current setup uses status labels and ROADMAP.md links and is usable without a board. Creating an organization Project requires GitHub Projects authorization; the setup token did not have `read:project` or `project` access.
+The public documentation lives at https://github.com/AceHealth/AceHealth-Community/wiki. Edit it in GitHub or clone `https://github.com/AceHealth/AceHealth-Community.wiki.git` to work locally. Wiki history is separate from this repository.
 
-Once authorized, create a **public** organization Project named **Ace Roadmap**, link it to this repository, and add a board grouped by Status: Under consideration, Planned, In progress, Shipped. Add an intake view for Needs triage and Needs information. Enable auto-add for open issues from `AceHealth/AceHealth-Community` and configure the built-in closed-item workflow. Keep board status aligned with the issue labels; no custom synchronization workflow is installed.
+The Wiki Roadmap page is the canonical public roadmap. Keep direction summaries there and detailed community requests in Issues. Link a tracked issue from the relevant roadmap entry when one exists, and update its label when its stage changes. Only mark an item shipped once release availability is confirmed and link the release notes. Do not publish internal blockers, provisional prices, or unverified availability claims.
 
-Confirm that the Project is public before linking it from README.md and ROADMAP.md. Do not import private application issues or internal planning notes. Add confirmed public commitments only.
+Keep Home and the sidebar links current when adding pages. Keep release entries in GitHub Releases and link to them from the wiki rather than copying the notes. A GitHub Projects board is optional; the wiki and labels do not depend on Projects authorization.
 
 ## Community operations
 
